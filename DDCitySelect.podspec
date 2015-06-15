@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DDCitySelect"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "用于城市选择，选择后得到城市编码，可以设定热门城市"
 
   s.description  = <<-DESC
@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+  s.resources = "DDCitySelect/Resources/*.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
