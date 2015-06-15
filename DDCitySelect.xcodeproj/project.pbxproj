@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42254BBF1B2E75DE009EFD25 /* DDCityInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 42254BB81B2E75DE009EFD25 /* DDCityInfo.m */; };
+		42254BC01B2E75DE009EFD25 /* DDCitySelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42254BBA1B2E75DE009EFD25 /* DDCitySelectCell.m */; };
+		42254BC11B2E75DE009EFD25 /* DDCitySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42254BBC1B2E75DE009EFD25 /* DDCitySelectViewController.m */; };
+		42254BC21B2E75DE009EFD25 /* DDCityStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 42254BBE1B2E75DE009EFD25 /* DDCityStorage.m */; };
+		42254BC51B2E75E8009EFD25 /* DDCitySelect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42254BC41B2E75E8009EFD25 /* DDCitySelect.bundle */; };
 		422721F31B297BE700FD773D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 422721F21B297BE700FD773D /* main.m */; };
 		422721F61B297BE700FD773D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 422721F51B297BE700FD773D /* AppDelegate.m */; };
 		422721F91B297BE700FD773D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422721F81B297BE700FD773D /* ViewController.m */; };
@@ -14,11 +19,6 @@
 		422721FE1B297BE700FD773D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422721FD1B297BE700FD773D /* Images.xcassets */; };
 		422722011B297BE700FD773D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 422721FF1B297BE700FD773D /* LaunchScreen.xib */; };
 		4227220D1B297BE700FD773D /* DDCitySelectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227220C1B297BE700FD773D /* DDCitySelectTests.m */; };
-		42B119141B2DC3AA005EEF0F /* DDCityInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B1190D1B2DC3AA005EEF0F /* DDCityInfo.m */; };
-		42B119151B2DC3AA005EEF0F /* DDCitySelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B1190F1B2DC3AA005EEF0F /* DDCitySelectCell.m */; };
-		42B119161B2DC3AA005EEF0F /* DDCitySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B119111B2DC3AA005EEF0F /* DDCitySelectViewController.m */; };
-		42B119171B2DC3AA005EEF0F /* DDCityStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B119131B2DC3AA005EEF0F /* DDCityStorage.m */; };
-		42B1191A1B2DC3B3005EEF0F /* DDCitySelect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42B119191B2DC3B3005EEF0F /* DDCitySelect.bundle */; };
 		5628250B9901DDE78FBD056C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED77BCC706DCC85CCC2669BC /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +33,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42254BB71B2E75DE009EFD25 /* DDCityInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCityInfo.h; sourceTree = "<group>"; };
+		42254BB81B2E75DE009EFD25 /* DDCityInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCityInfo.m; sourceTree = "<group>"; };
+		42254BB91B2E75DE009EFD25 /* DDCitySelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCitySelectCell.h; sourceTree = "<group>"; };
+		42254BBA1B2E75DE009EFD25 /* DDCitySelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCitySelectCell.m; sourceTree = "<group>"; };
+		42254BBB1B2E75DE009EFD25 /* DDCitySelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCitySelectViewController.h; sourceTree = "<group>"; };
+		42254BBC1B2E75DE009EFD25 /* DDCitySelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCitySelectViewController.m; sourceTree = "<group>"; };
+		42254BBD1B2E75DE009EFD25 /* DDCityStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCityStorage.h; sourceTree = "<group>"; };
+		42254BBE1B2E75DE009EFD25 /* DDCityStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCityStorage.m; sourceTree = "<group>"; };
+		42254BC41B2E75E8009EFD25 /* DDCitySelect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DDCitySelect.bundle; sourceTree = "<group>"; };
 		422721ED1B297BE700FD773D /* DDCitySelect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDCitySelect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		422721F11B297BE700FD773D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		422721F21B297BE700FD773D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,15 +55,6 @@
 		422722061B297BE700FD773D /* DDCitySelectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDCitySelectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4227220B1B297BE700FD773D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4227220C1B297BE700FD773D /* DDCitySelectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDCitySelectTests.m; sourceTree = "<group>"; };
-		42B1190C1B2DC3AA005EEF0F /* DDCityInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCityInfo.h; sourceTree = "<group>"; };
-		42B1190D1B2DC3AA005EEF0F /* DDCityInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCityInfo.m; sourceTree = "<group>"; };
-		42B1190E1B2DC3AA005EEF0F /* DDCitySelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCitySelectCell.h; sourceTree = "<group>"; };
-		42B1190F1B2DC3AA005EEF0F /* DDCitySelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCitySelectCell.m; sourceTree = "<group>"; };
-		42B119101B2DC3AA005EEF0F /* DDCitySelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCitySelectViewController.h; sourceTree = "<group>"; };
-		42B119111B2DC3AA005EEF0F /* DDCitySelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCitySelectViewController.m; sourceTree = "<group>"; };
-		42B119121B2DC3AA005EEF0F /* DDCityStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCityStorage.h; sourceTree = "<group>"; };
-		42B119131B2DC3AA005EEF0F /* DDCityStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCityStorage.m; sourceTree = "<group>"; };
-		42B119191B2DC3B3005EEF0F /* DDCitySelect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DDCitySelect.bundle; sourceTree = "<group>"; };
 		76D9955F391AC36640F156AE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EB7B97F72F091BDA204D9EB2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		ED77BCC706DCC85CCC2669BC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +88,29 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		42254BB61B2E75DE009EFD25 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				42254BB71B2E75DE009EFD25 /* DDCityInfo.h */,
+				42254BB81B2E75DE009EFD25 /* DDCityInfo.m */,
+				42254BB91B2E75DE009EFD25 /* DDCitySelectCell.h */,
+				42254BBA1B2E75DE009EFD25 /* DDCitySelectCell.m */,
+				42254BBB1B2E75DE009EFD25 /* DDCitySelectViewController.h */,
+				42254BBC1B2E75DE009EFD25 /* DDCitySelectViewController.m */,
+				42254BBD1B2E75DE009EFD25 /* DDCityStorage.h */,
+				42254BBE1B2E75DE009EFD25 /* DDCityStorage.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		42254BC31B2E75E8009EFD25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42254BC41B2E75E8009EFD25 /* DDCitySelect.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		422721E41B297BE700FD773D = {
 			isa = PBXGroup;
 			children = (
@@ -111,8 +134,8 @@
 		422721EF1B297BE700FD773D /* DDCitySelect */ = {
 			isa = PBXGroup;
 			children = (
-				42B119181B2DC3B3005EEF0F /* Resources */,
-				42B1190B1B2DC3AA005EEF0F /* Classes */,
+				42254BC31B2E75E8009EFD25 /* Resources */,
+				42254BB61B2E75DE009EFD25 /* Classes */,
 				422721F41B297BE700FD773D /* AppDelegate.h */,
 				422721F51B297BE700FD773D /* AppDelegate.m */,
 				422721F71B297BE700FD773D /* ViewController.h */,
@@ -150,29 +173,6 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
-		};
-		42B1190B1B2DC3AA005EEF0F /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				42B1190C1B2DC3AA005EEF0F /* DDCityInfo.h */,
-				42B1190D1B2DC3AA005EEF0F /* DDCityInfo.m */,
-				42B1190E1B2DC3AA005EEF0F /* DDCitySelectCell.h */,
-				42B1190F1B2DC3AA005EEF0F /* DDCitySelectCell.m */,
-				42B119101B2DC3AA005EEF0F /* DDCitySelectViewController.h */,
-				42B119111B2DC3AA005EEF0F /* DDCitySelectViewController.m */,
-				42B119121B2DC3AA005EEF0F /* DDCityStorage.h */,
-				42B119131B2DC3AA005EEF0F /* DDCityStorage.m */,
-			);
-			path = Classes;
-			sourceTree = SOURCE_ROOT;
-		};
-		42B119181B2DC3B3005EEF0F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				42B119191B2DC3B3005EEF0F /* DDCitySelect.bundle */,
-			);
-			path = Resources;
-			sourceTree = SOURCE_ROOT;
 		};
 		7E8C1397A0B53ADF3398CD71 /* Frameworks */ = {
 			isa = PBXGroup;
@@ -264,7 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42B1191A1B2DC3B3005EEF0F /* DDCitySelect.bundle in Resources */,
+				42254BC51B2E75E8009EFD25 /* DDCitySelect.bundle in Resources */,
 				422721FC1B297BE700FD773D /* Main.storyboard in Resources */,
 				422722011B297BE700FD773D /* LaunchScreen.xib in Resources */,
 				422721FE1B297BE700FD773D /* Images.xcassets in Resources */,
@@ -318,13 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42B119141B2DC3AA005EEF0F /* DDCityInfo.m in Sources */,
+				42254BBF1B2E75DE009EFD25 /* DDCityInfo.m in Sources */,
 				422721F91B297BE700FD773D /* ViewController.m in Sources */,
-				42B119171B2DC3AA005EEF0F /* DDCityStorage.m in Sources */,
+				42254BC21B2E75DE009EFD25 /* DDCityStorage.m in Sources */,
 				422721F61B297BE700FD773D /* AppDelegate.m in Sources */,
-				42B119161B2DC3AA005EEF0F /* DDCitySelectViewController.m in Sources */,
+				42254BC11B2E75DE009EFD25 /* DDCitySelectViewController.m in Sources */,
 				422721F31B297BE700FD773D /* main.m in Sources */,
-				42B119151B2DC3AA005EEF0F /* DDCitySelectCell.m in Sources */,
+				42254BC01B2E75DE009EFD25 /* DDCitySelectCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
