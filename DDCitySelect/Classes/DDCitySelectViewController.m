@@ -48,6 +48,8 @@
         self.hidesBottomBarWhenPushed = YES;
         //创建TableView
         _citySelectTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height) style:UITableViewStylePlain];
+        // 设置侧边条为黑色字体
+        _citySelectTableView.sectionIndexColor = [UIColor blackColor];
         _citySelectTableView.dataSource = self;
         _citySelectTableView.delegate = self;
         _citySelectTableView.backgroundColor = [UIColor clearColor];
